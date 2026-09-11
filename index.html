@@ -3,138 +3,301 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mariyam Nesha - Software Engineer</title>
+    <title>Mariyam Nesha | Software Engineer</title>
+    <meta name="description" content="Portfolio of Mariyam Nesha, a Software Engineer with expertise in Python, SQL databases, and cybersecurity.">
     <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav id="navbar">
-        <div class="logo">A<span>.</span></div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="hamburger"><i class="fas fa-bars"></i></div>
-    </nav>
 
-    <header id="hero">
-        <h1>Mariyam Nesha</h1>
-        <h2>Software Engineer</h2>
-        <p>Enthusiastic and solution-driven Software Engineer with hands-on experience in Python development and SQL databases.</p>
-        <div class="cta-buttons">
-            <a href="#projects" class="btn">View Projects</a>
-            <a href="images/resume.pdf" class="btn btn-outline" download>Download Resume</a>
-        </div>
+    <!-- NAVIGATION -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="logo">A<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
     </header>
 
-    <section id="about">
-        <h2 class="section-title">About Me</h2>
-        <p>Skilled in building intelligent systems that solve real-world problems, including facial recognition, gesture interpretation, and personal learning. Ready to contribute to forward-thinking development teams building impactful technologies.</p>
-    </section>
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="section reveal">
+            <div class="hero-content">
+                <div class="tech-badge">SYS_ADMIN // DEV_MODE: ACTIVE</div>
+                <h1 class="glitch-text">Mariyam Nesha</h1>
+                <h2 class="role-title">Software Engineer</h2>
+                <p class="hero-desc">Enthusiastic and solution-driven Software Engineer with hands-on experience in Python development and SQL databases.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View Projects</a>
+                    <a href="images/resume.pdf" class="btn btn-secondary" download><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+            </div>
+        </section>
 
-    <section id="skills">
-        <h2 class="section-title">Technical Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <h3>Programming & Web</h3>
-                <p>Python, SQL, HTML5, CSS3</p>
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section reveal">
+            <div class="section-header">
+                <h2><i class="fas fa-user-astronaut"></i> Professional Summary</h2>
             </div>
-            <div class="skill-card">
-                <h3>Database Technologies</h3>
-                <p>MySQL, Oracle SQL & PL/SQL, Database Design, Query Optimization, RDBMS, Joins, Subqueries, Views, Constraints, Indexes, Stored Procedures, Functions, Triggers, Cursors</p>
+            <div class="card about-card">
+                <p>Enthusiastic and solution-driven Software Engineer with hands-on experience in Python development and SQL database. Skilled in building intelligent systems that solve real-world problems, including facial recognition, gesture interpretation, and personal learning. Ready to contribute to forward-thinking development teams building impactful technologies.</p>
             </div>
-            <div class="skill-card">
-                <h3>Tools & OS</h3>
-                <p>Linux (Debian, Ubuntu, Kali), Windows, macOS, Git, GitHub, VS Code, VMware Workstation</p>
-            </div>
-            <div class="skill-card">
-                <h3>Core Concepts & Networking</h3>
-                <p>OOP, Data Structures & Algorithms, Web App Development, TCP/IP, Network Troubleshooting, Cybersecurity Fundamentals, Vulnerability Assessment</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="experience">
-        <h2 class="section-title">Experience & Internships</h2>
-        <div class="timeline">
-            <div class="card">
-                <h3>Web App VAPT Intern | CyberDojo</h3>
-                <span>June 2025 – August 2025</span>
-                <ul>
-                    <li>Conducted vulnerability assessment and penetration testing on web apps using Burp Suite, Nmap, and OWASP.</li>
-                    <li>Collaborated with Red, Blue, and Purple Teams to secure systems.</li>
-                    <li>Documented findings and recommended security fixes.</li>
-                </ul>
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section reveal">
+            <div class="section-header">
+                <h2><i class="fas fa-database"></i> Technical Skills</h2>
             </div>
-            <div class="card">
-                <h3>Data Analyst Intern | PySpiders, India</h3>
-                <span>Ongoing</span>
-                <ul>
-                    <li>Performing data cleaning, preprocessing, and analysis on structured datasets.</li>
-                    <li>Working with Python, Pandas, and NumPy for insights generation.</li>
-                    <li>Creating dashboards and reports using MS Excel and Power BI.</li>
-                </ul>
+            <div class="skills-container">
+                <div class="skill-category card">
+                    <h3><i class="fas fa-terminal"></i> Programming Languages</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                    </div>
+                </div>
+                <div class="skill-category card">
+                    <h3><i class="fas fa-server"></i> Database Technologies</h3>
+                    <div class="tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Database Design</span>
+                        <span class="tag">Query Optimization</span>
+                        <span class="tag">RDBMS</span>
+                    </div>
+                </div>
+                <div class="skill-category card">
+                    <h3><i class="fas fa-table"></i> Oracle SQL & PL/SQL</h3>
+                    <div class="tags">
+                        <span class="tag">Joins</span>
+                        <span class="tag">Subqueries</span>
+                        <span class="tag">Views</span>
+                        <span class="tag">Constraints</span>
+                        <span class="tag">Indexes</span>
+                        <span class="tag">Stored Procedures</span>
+                        <span class="tag">Functions</span>
+                        <span class="tag">Triggers</span>
+                        <span class="tag">Cursors</span>
+                        <span class="tag">Exception Handling</span>
+                    </div>
+                </div>
+                <div class="skill-category card">
+                    <h3><i class="fab fa-linux"></i> Operating Systems</h3>
+                    <div class="tags">
+                        <span class="tag">Linux (Debian, Ubuntu, Kali Linux)</span>
+                        <span class="tag">Windows</span>
+                        <span class="tag">macOS</span>
+                    </div>
+                </div>
+                <div class="skill-category card">
+                    <h3><i class="fas fa-tools"></i> Development Tools & Platforms</h3>
+                    <div class="tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Visual Studio Code</span>
+                        <span class="tag">VMware Workstation</span>
+                    </div>
+                </div>
+                <div class="skill-category card">
+                    <h3><i class="fas fa-network-wired"></i> Networking & Security</h3>
+                    <div class="tags">
+                        <span class="tag">TCP/IP</span>
+                        <span class="tag">Network Troubleshooting</span>
+                        <span class="tag">Basic Cybersecurity Concepts</span>
+                        <span class="tag">Vulnerability Assessment</span>
+                    </div>
+                </div>
+                <div class="skill-category card">
+                    <h3><i class="fas fa-brain"></i> Core Concepts</h3>
+                    <div class="tags">
+                        <span class="tag">OOP</span>
+                        <span class="tag">Data Structures & Algorithms</span>
+                        <span class="tag">Web Application Development</span>
+                        <span class="tag">Database Management</span>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="projects">
-        <h2 class="section-title">Projects</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>Personal AI Assistant</h3>
-                <p>Developed a smart assistant processing natural language commands to schedule tasks, set reminders, and fetch information using ML and NLP.</p>
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="section reveal">
+            <div class="section-header">
+                <h2><i class="fas fa-briefcase"></i> Internship Experience</h2>
             </div>
-            <div class="card">
-                <h3>Sign Language to Speech Translator</h3>
-                <p>Engineered a real-time interpretation tool using deep learning and computer vision to translate hand gestures into text and speech.</p>
+            <div class="timeline">
+                <div class="timeline-item card">
+                    <div class="timeline-date">June 2025 – August 2025</div>
+                    <h3>Web App VAPT Intern</h3>
+                    <h4>CyberDojo</h4>
+                    <ul class="timeline-list">
+                        <li>Conducted vulnerability assessment and penetration testing on web applications using Burp Suite, Nmap, and OWASP methodologies.</li>
+                        <li>Collaborated with Red, Blue, and Purple Teams to analyze, exploit, and secure real-world web systems.</li>
+                        <li>Documented findings, prepared reports, and recommended fixes for identified security gaps.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item card">
+                    <div class="timeline-date">Ongoing</div>
+                    <h3>Data Analyst Intern</h3>
+                    <h4>PySpiders, India</h4>
+                    <ul class="timeline-list">
+                        <li>Performing data cleaning, preprocessing, and analysis on structured datasets.</li>
+                        <li>Working with Python, Pandas, and NumPy for data manipulation and insights generation.</li>
+                        <li>Creating dashboards and reports using MS Excel and Power BI.</li>
+                    </ul>
+                </div>
             </div>
-            <div class="card">
-                <h3>Bluepeak – Bluetooth Security Toolkit</h3>
-                <p>Designed a Python-based framework automating vulnerability discovery through sniffing, open port scanners, and DoS tests.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="education">
-        <h2 class="section-title">Education & Certifications</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>B. Tech – Computer Science & Engineering</h3>
-                <p>Biju Patnaik University of Technology (2022-2026)</p>
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section reveal">
+            <div class="section-header">
+                <h2><i class="fas fa-project-diagram"></i> Projects</h2>
             </div>
-            <div class="card">
-                <h3>Certifications</h3>
-                <ul>
-                    <li><strong>CyberDojo CCSFC:</strong> Red/Blue/Purple team ops, network exploitation, digital forensics (March 2025).</li>
-                    <li><strong>Cisco Junior Cybersecurity Analyst:</strong> Threat detection, risk management, and incident response (Feb 2026).</li>
-                </ul>
+            <div class="projects-grid">
+                <div class="project-card card">
+                    <h3>Personal AI Assistant</h3>
+                    <p class="project-desc">Developed a smart assistant that processes natural language commands to schedule tasks, set reminders, and fetch online information. Leveraged machine learning models and NLP to deliver a personalized and responsive user experience.</p>
+                </div>
+                <div class="project-card card">
+                    <h3>Sign Language to Speech Translator</h3>
+                    <p class="project-desc">Engineered a real-time sign language interpretation tool using deep learning and computer vision. Translates hand gestures into text and speech to improve communication accessibility for hearing-impaired users.</p>
+                </div>
+                <div class="project-card card">
+                    <h3>Bluepeak – A Bluetooth Security Toolkit</h3>
+                    <p class="project-desc">Designed and developed a python-based project, Bluepeak, a powerful Bluetooth security framework that automates vulnerability discovery through sniffing, Open port scanners and DoS tests, improving assessment accuracy for wireless security engagements.</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="testimonials">
-        <h2 class="section-title">Testimonials</h2>
-        <div class="carousel">
-            <p class="placeholder-text">"Professional recommendations and peer endorsements will be displayed here."</p>
-        </div>
-    </section>
+        <!-- EDUCATION SECTION -->
+        <section id="education" class="section reveal">
+            <div class="section-header">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item card">
+                    <div class="timeline-date">2022 - 2026</div>
+                    <h3>B. Tech – Computer Science & Engineering</h3>
+                    <h4>Biju Patnaik University of Technology (BPUT)</h4>
+                </div>
+                <div class="timeline-item card">
+                    <div class="timeline-date">2020 - 2022</div>
+                    <h3>Higher Secondary Education</h3>
+                    <h4>Sudhananda Vidyalaya</h4>
+                </div>
+                <div class="timeline-item card">
+                    <div class="timeline-date">2020</div>
+                    <h3>Matriculation</h3>
+                    <h4>MBS Public School</h4>
+                </div>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-info">
-            <p><i class="fas fa-envelope"></i> Mariyamnesha21@gmail.com</p>
-            <p><i class="fas fa-phone"></i> +91-7847032874</p>
-            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mariyam-nesha-0808b7356/">LinkedIn Profile</a></p>
-        </div>
-    </section>
+        <!-- CERTIFICATIONS SECTION -->
+        <section id="certifications" class="section reveal">
+            <div class="section-header">
+                <h2><i class="fas fa-certificate"></i> Training & Certifications</h2>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card card">
+                    <div class="cert-date">March 2025 | On-site, Gujarat</div>
+                    <h3>CyberDojo – CCSFC</h3>
+                    <h4>Certified Cyber Security Fundamentals Course</h4>
+                    <ul>
+                        <li>Completed blended training program (college + company) covering Red, Blue, and Purple Team operations.</li>
+                        <li>Gained practical experience in network exploitation, digital forensics, and incident response using real-world simulations and tools.</li>
+                    </ul>
+                </div>
+                <div class="cert-card card">
+                    <div class="cert-date">Feb 2026 | On-site, Bhubaneswar</div>
+                    <h3>Cisco Junior Cybersecurity Analyst Certification</h3>
+                    <h4>Cisco Networking Academy | ICT Academy | Redington Foundation</h4>
+                    <ul>
+                        <li>Learned cybersecurity fundamentals, network security, threat detection, risk management, and incident response.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
+        <!-- TESTIMONIALS SECTION -->
+        <section id="testimonials" class="section reveal">
+            <div class="section-header">
+                <h2><i class="fas fa-quote-left"></i> Testimonials</h2>
+            </div>
+            <div class="carousel-container card">
+                <div class="carousel-track">
+                    <div class="carousel-slide active">
+                        <p class="placeholder-testimonial">"Professional recommendations and performance endorsements will be added here."</p>
+                        <h4 class="testimonial-author">- Pending Reference</h4>
+                    </div>
+                    <div class="carousel-slide">
+                        <p class="placeholder-testimonial">"Feedback from mentors, peers, and project leads can be displayed in this section."</p>
+                        <h4 class="testimonial-author">- Pending Reference</h4>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="carousel-indicators">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section reveal">
+            <div class="section-header">
+                <h2><i class="fas fa-address-book"></i> Contact</h2>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:Mariyamnesha21@gmail.com" class="contact-card card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>Mariyamnesha21@gmail.com</p>
+                </a>
+                <a href="tel:+917847032874" class="contact-card card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Phone</h3>
+                    <p>+91- 7847032874</p>
+                </a>
+                <a href="https://www.linkedin.com/in/mariyam-nesha-0808b7356/" target="_blank" rel="noopener noreferrer" class="contact-card card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>Mariyam Nesha</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; <span id="year"></span> Mariyam Nesha. All Rights Reserved.</p>
+        <div class="footer-content">
+            <div class="footer-logo">A<span>.</span></div>
+            <p>Software Engineer & Technology Specialist</p>
+            <div class="footer-socials">
+                <a href="mailto:Mariyamnesha21@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/mariyam-nesha-0808b7356/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; <span id="current-year"></span> Mariyam Nesha. All Rights Reserved.
+            </div>
+        </div>
     </footer>
 
     <script src="index.js"></script>
